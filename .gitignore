@@ -1,0 +1,38 @@
+# Ignorar compilados y dependencias de Rust
+/target/
+**/*.rs.bk
+
+# Archivos de registro de compilación
+/.cargo/
+*.log
+
+# Ignorar binarios generados
+/debug/
+/release/
+
+# Ignorar configuraciones y metadatos específicos de IDE
+.idea/
+.vscode/
+*.swp
+
+# Archivos de configuración específicos del sistema
+*.DS_Store
+*.exe
+*.out
+*.app
+*.dylib
+*.dll
+*.so
+
+# Archivos de caché de Bevy
+# Puede ignorarse si se configuran recursos temporales o generados automáticamente
+assets/*
+!assets/**/*.*
+assets/textures/*
+assets/sounds/*
+assets/models/*
+
+# Archivos temporales de compilación en Bevy y plugins de renderizado
+# Ignorar capturas de pantalla y otros archivos generados temporalmente
+**/screenshots/
+**/backups/
