@@ -9,3 +9,7 @@ pub mod constants {
     pub mod camera;
     pub mod player;
 }
+
+pub mod service {
+    pub mod example;
+}

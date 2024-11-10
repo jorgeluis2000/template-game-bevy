@@ -1,10 +1,11 @@
-use core::system::camera::CameraGamePlugin;
+use app::system::camera::CameraGamePlugin;
 
 use bevy::prelude::*;
 use utils::{constants::window::{WINDOW_HEIGHT, WINDOW_WEIGHT}, entities::player::{Player, PlayerState}};
+
+mod app;
 mod core;
 mod utils;
-
 fn main() {
     App::new()
         .add_plugins(

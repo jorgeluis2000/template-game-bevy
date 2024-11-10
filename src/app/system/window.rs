@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 
-use crate::{core::players::player::PlayerPlugin, utils::constants::window::{WINDOW_HEIGHT, WINDOW_WEIGHT}};
+use crate::{core::characters::player::PlayerPlugin, utils::constants::window::{WINDOW_HEIGHT, WINDOW_WEIGHT}};
 
 pub struct WindowPlayGamePlugin;
 
